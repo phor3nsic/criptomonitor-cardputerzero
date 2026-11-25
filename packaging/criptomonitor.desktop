@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=CriptoMonitor
+Exec=/usr/share/APPLaunch/bin/CriptoMonitor
+Icon=share/images/criptomonitor.png
+Terminal=false
+Type=Application

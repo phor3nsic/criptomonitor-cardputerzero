@@ -1,0 +1,11 @@
+Package: criptomonitor
+Version: @VERSION@
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: phor3nsic <phor3nsic@users.noreply.github.com>
+Depends: python3 (>= 3.11), python3-pil, python3-evdev, python3-requests, fonts-dejavu-core
+Recommends: fonts-nunito-sans
+Description: Crypto market monitor for the CardputerZero
+ Dashboard with top cryptocurrencies, search by symbol and charts
+ from 1H to 1Y, using public Binance and CoinGecko APIs. English and Portuguese UI.

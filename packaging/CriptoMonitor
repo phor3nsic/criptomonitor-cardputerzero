@@ -1,0 +1,5 @@
+#!/bin/sh
+# Lançador do APPLaunch: executa o módulo Python empacotado, sem privilégios.
+export PYTHONPATH=/usr/lib/criptomonitor
+export PYTHONDONTWRITEBYTECODE=1
+exec /usr/bin/python3 -s -m criptomonitor "$@"

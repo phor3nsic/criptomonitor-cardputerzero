@@ -1,0 +1,36 @@
+{
+  "package_name": "criptomonitor",
+  "version": "1.1.0",
+  "app_name": "CriptoMonitor",
+  "bin_name": "CriptoMonitor",
+  "description": "Crypto market monitor for the CardputerZero",
+  "store": {
+    "summary": "Live crypto prices, search by symbol and charts from 1H to 1Y",
+    "description": "Track the crypto market on your CardputerZero. The dashboard shows the top coins (BTC, ETH, SOL, BNB, XRP) with price, 24h change and a sparkline. Search any coin by its symbol (e.g. PEPE), open a chart for 1H, 24H, 7D, 30D or 1Y with high/low, 24h volume and a cursor to inspect each point, and pin favorites to the dashboard. US$ or R$, dark or light theme, English or Portuguese. Data from the public Binance and CoinGecko APIs (no account or key). Informational only, not financial advice.",
+    "categories": ["Lifestyle"],
+    "screenshots": [
+      "assets/screenshots/1-dashboard.png",
+      "assets/screenshots/2-chart-24h.png",
+      "assets/screenshots/3-chart-cursor.png",
+      "assets/screenshots/4-search.png",
+      "assets/screenshots/5-light-theme.png",
+      "assets/screenshots/6-portuguese-brl.png"
+    ],
+    "icon": "assets/icon.png",
+    "license": "MIT",
+    "source_repo": "https://github.com/phor3nsic/criptomonitor-cardputerzero",
+    "author": { "github": "phor3nsic", "display_name": "phor3nsic" },
+    "share_code": "CRPT",
+    "permissions": {
+      "camera": false, "microphone": false, "imu": false, "network": true,
+      "additional_hardware": false, "background_service": false,
+      "external_display": false
+    },
+    "locales": {
+      "pt-BR": {
+        "title": "CriptoMonitor",
+        "summary": "Preços de cripto ao vivo, busca por símbolo e gráficos de 1H a 1A"
+      }
+    }
+  }
+}
